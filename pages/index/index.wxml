@@ -7,7 +7,11 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view class="time">
+    <text>Time: {{time}}</text>
+  </view>
   <view class="usermotto">
+    <text class="fa fa-user-o"></text>
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>

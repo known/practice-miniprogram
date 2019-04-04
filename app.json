@@ -8,5 +8,29 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小程序练习",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "示例"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
   }
 }
