@@ -15,19 +15,32 @@
     "borderStyle": "black",
     "list": [
       {
-        "iconPath": "",
+        "iconPath": "images/tb_home.png",
+        "selectedIconPath": "images/tb_home_alt.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
+        "iconPath": "images/tb_grid.png",
+        "selectedIconPath": "images/tb_grid_alt.png",
         "pagePath": "pages/logs/logs",
         "text": "示例"
       },
       {
+        "iconPath": "images/tb_search.png",
+        "selectedIconPath": "images/tb_search_alt.png",
         "pagePath": "pages/logs/logs",
         "text": "搜索"
       },
       {
+        "iconPath": "images/tb_gps.png",
+        "selectedIconPath": "images/tb_gps_alt.png",
+        "pagePath": "pages/logs/logs",
+        "text": "周边"
+      },
+      {
+        "iconPath": "images/tb_signal.png",
+        "selectedIconPath": "images/tb_signal_alt.png",
         "pagePath": "pages/logs/logs",
         "text": "我的"
       }
