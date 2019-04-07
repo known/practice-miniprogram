@@ -1,25 +1,50 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
+.swiper-item {
+  display: block;
+  height: 150px;
+}
+.demo-text-1{
+  position: relative;
   align-items: center;
+  justify-content: center;
+  background-color: #1AAD19;
+  color: #FFFFFF;
+  font-size: 36rpx;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.demo-text-1:before{
+  content: '你好，小程序！';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.demo-text-2{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782D7;
+  color: #FFFFFF;
+  font-size: 36rpx;
 }
-
-.time {
-  margin-top: 100px;
+.demo-text-2:before{
+  content: '世界将因你而改变！';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.usermotto {
-  margin-top: 10px;
+.demo-text-3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1F1;
+  color: #353535;
+  font-size: 36rpx;
+}
+.demo-text-3:before{
+  content: '让我们走进你的世界！';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

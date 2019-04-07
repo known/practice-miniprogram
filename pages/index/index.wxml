@@ -1,10 +1,11 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="time">
-    <text>Time: {{time}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="fa fa-user-o"></text>
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
 </view>
