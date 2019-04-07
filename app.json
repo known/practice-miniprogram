@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -41,8 +42,8 @@
       {
         "iconPath": "images/tb_signal.png",
         "selectedIconPath": "images/tb_signal_alt.png",
-        "pagePath": "pages/logs/logs",
-        "text": "我的"
+        "pagePath": "pages/me/me",
+        "text": "我"
       }
     ]
   }

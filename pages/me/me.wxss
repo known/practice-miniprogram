@@ -1,0 +1,27 @@
+@import "../common/index.wxss";
+
+/**me.wxss**/
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.my-list {
+  padding: 5rpx;
+}
+
+.my-list-text{
+  flex: 1;
+  margin-left: 10rpx
+}
