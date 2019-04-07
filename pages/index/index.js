@@ -1,8 +1,4 @@
 //index.js
-//获取应用实例
-const app = getApp()
-const util = require('../../utils/util.js')
-
 Page({
   data: {
     background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],

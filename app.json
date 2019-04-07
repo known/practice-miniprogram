@@ -1,14 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/demo/demo",
+    "pages/search/search",
+    "pages/nearby/nearby"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小程序练习",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#a9b7b7",
@@ -24,20 +27,20 @@
       {
         "iconPath": "images/tb_grid.png",
         "selectedIconPath": "images/tb_grid_alt.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/demo/demo",
         "text": "示例"
       },
       {
         "iconPath": "images/tb_search.png",
         "selectedIconPath": "images/tb_search_alt.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/search/search",
         "text": "搜索"
       },
       {
         "iconPath": "images/tb_gps.png",
         "selectedIconPath": "images/tb_gps_alt.png",
-        "pagePath": "pages/logs/logs",
-        "text": "周边"
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近"
       },
       {
         "iconPath": "images/tb_signal.png",
