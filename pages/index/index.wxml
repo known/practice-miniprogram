@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+
   <swiper indicator-dots="{{indicatorDots}}"
     autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{background}}" wx:key="*this">
@@ -8,7 +9,9 @@
       </swiper-item>
     </block>
   </swiper>
+
   <view>
     <text>Hello</text>
   </view>
+  
 </view>

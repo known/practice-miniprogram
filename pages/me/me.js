@@ -2,23 +2,20 @@
 const app = getApp()
 
 Page({
+
   data: {
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    list: [
-      {
-        id: 'myOrder',
-        name: '我的订单',
-        page: 'myOrder'
-      },
-      {
-        id: 'setting',
-        name: '设置',
-        page: 'setting'
-      }
-    ]
+    list: [{
+      id: 'myOrder', name: '我的订单', icon: 'fa-reorder',
+      page: 'logs'
+    },{
+      id: 'setting', name: '设置', icon: 'fa-cog',
+      page: 'logs'
+    }]
   },
+
   //事件处理函数
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -48,11 +45,13 @@ Page({
       })
     }
   },
+
   bindViewTap: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
   getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
@@ -61,4 +60,5 @@ Page({
       hasUserInfo: true
     })
   }
+
 })

@@ -1,5 +1,6 @@
 <!--me.wxml-->
 <view class="container">
+
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -7,18 +8,21 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+
   <view class="navigator-box">
     <block wx:for-items="{{list}}" wx:key="{{item.id}}">
-      <navigator url="pages/{{item.page}}/{{item.page}}" class="navigator">
+      <navigator url="/pages/{{item.page}}/{{item.page}}" class="navigator">
         <view class="navigator-text">
-          <text class="fa fa-user-o"></text>
+          <text class="fa {{item.icon}}"></text>
           <text class="my-list-text">{{item.name}}</text>
         </view>
         <view class="navigator-arrow"></view>
       </navigator>
     </block>
   </view>
+
   <view>
     <button type="warn">退出登录</button>
   </view>
+
 </view>
